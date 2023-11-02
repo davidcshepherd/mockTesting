@@ -11,7 +11,7 @@ import static org.mockito.Mockito.when;
 class MyClassForTestingTest {
 
     @Test
-    void getInput() {
+    public void getInput() {
         BufferedReader br = mock(BufferedReader.class);
         try {
             when(br.readLine()).thenReturn("1");
