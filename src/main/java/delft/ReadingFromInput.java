@@ -4,17 +4,17 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class MyClassForTesting {
+public class ReadingFromInput {
 
 
     BufferedReader br;
 
 
-    public MyClassForTesting(){
+    public ReadingFromInput(){
         br =  new BufferedReader(new InputStreamReader(System.in)); //Here you declare your BufferedReader object and instance it.
     }
 
-    public MyClassForTesting(BufferedReader b){
+    public ReadingFromInput(BufferedReader b){
         br = b;
     }
 

@@ -2,7 +2,7 @@ package delft;
 
 import org.junit.jupiter.api.Test;
 
-public class MyClassForTestingTest {
+public class ReadingFromInputTest {
 
     @Test
     public void getInput() {
