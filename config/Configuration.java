@@ -21,7 +21,7 @@ public class Configuration extends RunConfiguration {
 
     @Override
     public List<String> classesUnderTest() {
-        return List.of("delft.MyClassForTestingTest");
+        return List.of("delft.MyClassForTesting");
     }
 
     @Override
