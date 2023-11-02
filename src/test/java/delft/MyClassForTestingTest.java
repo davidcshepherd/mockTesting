@@ -8,7 +8,7 @@ import java.io.IOException;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-class MyClassForTestingTest {
+public class MyClassForTestingTest {
 
     @Test
     public void getInput() {
